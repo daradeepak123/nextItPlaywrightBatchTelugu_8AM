@@ -1,1 +1,12 @@
 output.txt
+node_modules/
+dist/
+test-results/
+*.log
+*.tmp
+*.temp
+*.cache
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
