@@ -1,0 +1,55 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const OperatorsAllLogics_1 = require("./OperatorsAllLogics");
+const CalculatorLogic_1 = require("./CalculatorLogic");
+let num = 100;
+num++;
+console.log(++num + num++);
+console.log(num);
+let num1 = 100;
+num1--;
+console.log(--num1);
+console.log(num1);
+console.log("Incremented Number : " + num); //101
+(0, OperatorsAllLogics_1.incrementGivenNumber)(num);
+//101
+console.log(num);
+num++;
+//102
+console.log(num);
+let aa = 100;
+let bb = 200;
+console.log(aa + bb);
+let nn = (0, CalculatorLogic_1.addAndReturn)(500, 500);
+console.log(nn);
+console.log((0, CalculatorLogic_1.addAndReturn)(5000, 5000));
+(0, OperatorsAllLogics_1.sub)((0, CalculatorLogic_1.addAndReturn)(5000, 5000), 5000);
+let name = (0, CalculatorLogic_1.returnFullName)("John", "Doe");
+console.log(name);
+let assignOp = 500;
+console.log(assignOp);
+assignOp += 100;
+console.log(assignOp);
+assignOp -= 100;
+console.log(assignOp);
+assignOp *= 100;
+console.log(assignOp);
+assignOp /= 10;
+console.log(assignOp);
+assignOp %= 100;
+console.log(assignOp);
+let fl1 = false;
+let fl2 = true;
+let flg = (0, OperatorsAllLogics_1.returnAndOpValue)(fl1, fl2);
+console.log(flg);
+fl1 = true;
+fl1 || (fl1 = false);
+console.log(fl1);
+let num4 = 100;
+let num5 = 200;
+let flgg = (0, OperatorsAllLogics_1.lessThan)(num4, num5);
+console.log(flgg);
+console.log(50 < 100);
+console.log(50 > 100);
+console.log(50 == 50);
+//# sourceMappingURL=OpsExecution.js.map
