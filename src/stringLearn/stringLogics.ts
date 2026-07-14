@@ -11,6 +11,8 @@ export function rev(str: string): string {
 }
 
 
+
+
 export function palindromeCheck(str:string)
 {
  let revv:string= rev(str)
