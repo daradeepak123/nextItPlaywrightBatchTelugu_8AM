@@ -21,7 +21,7 @@ console.log("---------------------------------")
 
 
 
-
+// people who completed task can go to playground
 
 console.log("Start")
 
