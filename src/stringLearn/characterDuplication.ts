@@ -5,6 +5,7 @@
 export function validateDuplicateChar(ss:string):boolean {
     let str:string=ss
     let flag:boolean=false
+    let aaa:number
     for (let i = 0; i < str.length; i++) {
         let ch: string = str.charAt(i)     // a
         let fIndex: number = str.indexOf(ch)  // a  // 0
