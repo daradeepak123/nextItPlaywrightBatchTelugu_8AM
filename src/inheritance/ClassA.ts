@@ -28,7 +28,7 @@ class B extends A
     }
 }
 
-
+console.log(B.nn)
 let o=new B()
 
 o.xyz()
